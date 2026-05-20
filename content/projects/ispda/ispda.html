@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrated Service Portal | Project Detail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+  <nav class="p-6 border-b border-slate-800 flex justify-between items-center">
+    <a href="../../projects.html" class="text-slate-400 hover:text-white flex items-center gap-2 transition">
+      <span>&larr;</span> Back to Archive
+    </a>
+  </nav>
+
+  <main class="max-w-5xl mx-auto py-16 px-6">
+
+    <header class="mb-16">
+      <h1 class="text-3xl md:text-5xl font-black mb-6">Integrated Service Portal</h1>
+      <div class="flex flex-wrap gap-3 mb-8">
+        <span class="bg-purple-600/20 text-purple-400 border border-purple-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase">Bootstrap</span>
+        <span class="bg-blue-600/20 text-blue-400 border border-blue-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase">PHP</span>
+        <span class="bg-orange-600/20 text-orange-400 border border-orange-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase">MySQL</span>
+      </div>
+      <p class="text-base md:text-xl text-slate-400 leading-relaxed max-w-3xl">
+        A specialized portal for QCU Guidance and Counseling featuring automated appointment scheduling, 
+        document requests, and a secure communication channel between students and counselors.
+      </p>
+    </header>
+
+    <section class="mb-24">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+        <span class="p-2 bg-red-500/10 rounded-lg text-red-500">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </span>
+        Video Demonstration
+      </h3>
+      <div class="aspect-video bg-slate-800 rounded-3xl border border-slate-700 overflow-hidden shadow-2xl">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="mt-4 text-center text-slate-500 text-sm italic">Showing the full end-to-end appointment and document request workflow.</p>
+    </section>
+
+    <section class="space-y-32">
+      <h3 class="text-2xl md:text-3xl font-bold text-center">Module Highlights</h3>
+
+      <!-- ROLE 01: Admin -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-emerald-500 font-mono font-bold mb-2 block tracking-widest">ROLE: 01</span>
+          <h4 class="text-2xl md:text-3xl font-bold mb-4">Admin Dashboard</h4>
+          <p class="text-slate-400 mb-6 italic">Oversees the entire portal, manages users, and monitors system activity.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-500 text-xs font-bold">✓</span>
+              <span><strong>User Account Management</strong> — register and manage student and counselor accounts.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-500 text-xs font-bold">✓</span>
+              <span><strong>System-wide Analytics</strong> — monitor appointment trends and portal usage statistics.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-500 text-xs font-bold">✓</span>
+              <span><strong>Audit Logs</strong> — track all user actions for security and accountability.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/admin-dashboard.png" alt="Admin Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+      </div>
+
+      <!-- ROLE 02: Counselor -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1 bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/counselor-dashboard.png" alt="Counselor Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+        <div class="order-1 md:order-2">
+          <span class="text-blue-400 font-mono font-bold mb-2 block tracking-widest">ROLE: 02</span>
+          <h4 class="text-2xl md:text-3xl font-bold mb-4">Counselor Dashboard</h4>
+          <p class="text-slate-400 mb-6 italic">Dedicated workspace for managing student sessions and document requests.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 text-xs font-bold">✓</span>
+              <span><strong>Appointment Management</strong> — view, approve, or reschedule student appointments.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 text-xs font-bold">✓</span>
+              <span><strong>Secure Messaging</strong> — private communication channel with students.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 text-xs font-bold">✓</span>
+              <span><strong>Session Notes</strong> — record and store confidential counseling session summaries.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ROLE 03: Service Portal (Student) -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-purple-400 font-mono font-bold mb-2 block tracking-widest">ROLE: 03</span>
+          <h4 class="text-2xl md:text-3xl font-bold mb-4">Student Service Portal</h4>
+          <p class="text-slate-400 mb-6 italic">The student-facing side of the portal for self-service guidance requests.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 text-xs font-bold">✓</span>
+              <span><strong>Appointment Scheduling</strong> — book counseling sessions with available time slots.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 text-xs font-bold">✓</span>
+              <span><strong>Document Requests</strong> — submit and track requests for guidance-related documents.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 text-xs font-bold">✓</span>
+              <span><strong>Notification System</strong> — receive real-time updates on appointment status and document availability.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/student-portal.png" alt="Student Portal Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="mt-32 pt-16 border-t border-slate-800">
+      <h3 class="text-xl md:text-2xl font-bold mb-8">Technical Deep Dive</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+          <h5 class="font-bold mb-2">The Database</h5>
+          <p class="text-sm text-slate-400 leading-relaxed">MySQL was used for its relational structure, making it ideal for managing linked data between students, counselors, appointments, and documents.</p>
+        </div>
+        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+          <h5 class="font-bold mb-2">The Logic</h5>
+          <p class="text-sm text-slate-400 leading-relaxed">PHP handled all server-side processing including session management, role-based access control, and secure form submissions.</p>
+        </div>
+        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+          <h5 class="font-bold mb-2">The UI</h5>
+          <p class="text-sm text-slate-400 leading-relaxed">Bootstrap provided a clean, responsive layout that works across all devices, keeping the interface accessible for all QCU students.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
