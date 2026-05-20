@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APR TLC Well Served | Project Detail</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+  <nav class="p-6 border-b border-slate-800 flex justify-between items-center">
+    <a href="../../content/projects.html" class="text-slate-400 hover:text-white flex items-center gap-2 transition">
+      <span>&larr;</span> Back to Archive
+    </a>
+  </nav>
+
+  <main class="max-w-5xl mx-auto py-16 px-6">
+    
+    <header class="mb-16">
+      <h1 class="text-5xl font-black mb-6">APR TLC Well Served</h1>
+      <div class="flex flex-wrap gap-3 mb-8">
+        <span class="bg-blue-600/20 text-blue-400 border border-blue-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase">Tailwind CSS</span>
+        <span class="bg-yellow-600/20 text-yellow-400 border border-yellow-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase">JavaScript</span>
+        <span class="bg-green-600/20 text-green-400 border border-green-600/30 px-3 py-1 rounded-full text-xs font-bold uppercase">MongoDB</span>
+      </div>
+      <p class="text-xl text-slate-400 leading-relaxed max-w-3xl">
+        A comprehensive Appointment Scheduling and Patient Record Management system designed to streamline clinical workflows. 
+        APR bridges the gap between patient data management and healthcare delivery.
+      </p>
+    </header>
+
+    <section class="mb-24">
+      <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+        <span class="p-2 bg-red-500/10 rounded-lg text-red-500">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </span>
+        Video Demonstration
+      </h3>
+      <div class="aspect-video bg-slate-800 rounded-3xl border border-slate-700 overflow-hidden shadow-2xl">
+        <iframe class="w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <p class="mt-4 text-center text-slate-500 text-sm italic">Showing the full end-to-end appointment and prescription workflow.</p>
+    </section>
+
+    <section class="space-y-32">
+      <h3 class="text-3xl font-bold text-center">Module Highlights</h3>
+
+      <!-- ROLE 01: Doctor -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-blue-500 font-mono font-bold mb-2 block tracking-widest">ROLE: 01</span>
+          <h4 class="text-3xl font-bold mb-4">Doctor Dashboard</h4>
+          <p class="text-slate-400 mb-6 italic">Focused on clinical decision-making and patient care.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500 text-xs font-bold">✓</span>
+              <span>Access to comprehensive <strong>Patient</strong> and <strong>Appointment history.</strong></span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500 text-xs font-bold">✓</span>
+              <span><strong>Digital Prescription Management</strong> with automated dosage logs.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/doctor-dashboard.png" alt="Doctor Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+      </div>
+
+      <!-- ROLE 02: Nurse -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1 bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/nurse-dashboard.png" alt="Nurse Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+        <div class="order-1 md:order-2">
+          <span class="text-emerald-400 font-mono font-bold mb-2 block tracking-widest">ROLE: 02</span>
+          <h4 class="text-3xl font-bold mb-4">Nurse Dashboard</h4>
+          <p class="text-slate-400 mb-6 italic">Optimized for patient triage and vitals recording.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-xs font-bold">✓</span>
+              <span><strong>Patient registration</strong> and <strong>appointment setting.</strong></span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-xs font-bold">✓</span>
+              <span><strong>Queue management</strong> for patient consultation rooms.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ROLE 03: MedTech -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-amber-400 font-mono font-bold mb-2 block tracking-widest">ROLE: 03</span>
+          <h4 class="text-3xl font-bold mb-4">MedTech Dashboard</h4>
+          <p class="text-slate-400 mb-6 italic">Dedicated workspace for laboratory request handling and result generation.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-400 text-xs font-bold">✓</span>
+              <span><strong>Lab Request Queue</strong> — view and manage incoming requests ordered by doctors.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-400 text-xs font-bold">✓</span>
+              <span><strong>Result Entry & Encoding</strong> with structured forms per test type (CBC, urinalysis, etc.).</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-400 text-xs font-bold">✓</span>
+              <span><strong>Lab Report Generation</strong> — finalized results auto-linked to the patient's record.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/medtech-dashboard.png" alt="MedTech Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+      </div>
+
+      <!-- ROLE 04: Admin -->
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="order-2 md:order-1 bg-slate-800 p-2 rounded-3xl border border-slate-700 shadow-2xl group overflow-hidden">
+          <img src="images/admin-dashboard.png" alt="Admin Interface" class="rounded-2xl group-hover:scale-[1.03] transition-transform duration-500">
+        </div>
+        <div class="order-1 md:order-2">
+          <span class="text-purple-400 font-mono font-bold mb-2 block tracking-widest">ROLE: 04</span>
+          <h4 class="text-3xl font-bold mb-4">Admin Dashboard</h4>
+          <p class="text-slate-400 mb-6 italic">Centralized management of clinic resources and users.</p>
+          <ul class="space-y-4 text-slate-300">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 text-xs font-bold">✓</span>
+              <span><strong>User Account Management</strong> (Registering Doctors and Nurses).</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 text-xs font-bold">✓</span>
+              <span><strong>Clinic-wide analytics</strong> and <strong>Logs for security monitoring.</strong></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="mt-32 pt-16 border-t border-slate-800">
+      <h3 class="text-2xl font-bold mb-8">Technical Deep Dive</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+          <h5 class="font-bold mb-2">The Database</h5>
+          <p class="text-sm text-slate-400 leading-relaxed">Utilized MongoDB for its flexible schema, allowing us to store varied medical records without rigid table structures.</p>
+        </div>
+        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+          <h5 class="font-bold mb-2">The Logic</h5>
+          <p class="text-sm text-slate-400 leading-relaxed">Built with Vanilla JavaScript to handle real-time form validation and secure API calls.</p>
+        </div>
+        <div class="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
+          <h5 class="font-bold mb-2">The UI</h5>
+          <p class="text-sm text-slate-400 leading-relaxed">Utility-first Tailwind CSS allowed for a highly responsive, clean "Clinic-style" interface.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
